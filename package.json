@@ -9,7 +9,7 @@
     "dev": "tsc && electron .",
     "dev:ui": "cd renderer && npm run dev",
     "dev:all": "cd renderer && npm run build && cd .. && npm run build && npm run dev",
-    "dist:win": "electron-builder --win --x64",
+    "dist:win": "electron-builder --win --x64 --publish=never",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "npx ts-node scripts/test-proxy.ts",
