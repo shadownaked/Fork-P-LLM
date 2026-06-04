@@ -1,0 +1,8 @@
+logs/
+node_modules/
+.claude/
+dist/
+data/
+dev-data/
+reference-project/
+openspec/

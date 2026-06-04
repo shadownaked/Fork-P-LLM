@@ -1,0 +1,8 @@
+{
+  "apiServerPort": 8080,
+  "apiServerHost": "127.0.0.1",
+  "requireApiKey": false,
+  "apiKeys": [],
+  "modelAliases": {},
+  "defaultTargetUrl": ""
+}
