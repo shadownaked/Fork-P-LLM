@@ -50,6 +50,5 @@ jobs:
         with:
           name: ProxyLLM-Windows
           path: |
-            release/ProxyLLM Setup*.exe
-            release/ProxyLLM-*.exe
+            release/*.exe
           retention-days: 30
